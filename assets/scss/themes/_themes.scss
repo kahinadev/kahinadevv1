@@ -83,6 +83,26 @@
             background-color: $beige !important;
         }
     }
+
+    .footer {
+
+        h4,
+        h5,
+        h6,
+        a,
+        p {
+            color: $pure;
+        }
+
+        a {
+
+            &:hover,
+            &:focus,
+            &:active {
+                color: $beige;
+            }
+        }
+    }
 }
 
 .light-theme {

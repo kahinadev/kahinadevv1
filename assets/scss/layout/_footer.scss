@@ -1,0 +1,36 @@
+footer {
+    padding: 80px 0;
+
+    h4,
+    h5 {
+        margin-bottom: 20px;
+    }
+
+    h4,
+    h5 {
+        font-size: 21px;
+    }
+
+    p,
+    a {
+        color: $mystery;
+        font-size: 20px !important;
+        margin-bottom: 20px;
+        @include text;
+    }
+
+    a {
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $hope;
+        }
+    }
+
+    .reseaux {
+        a {
+            margin-right: 15px;
+        }
+    }
+}

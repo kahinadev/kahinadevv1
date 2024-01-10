@@ -338,6 +338,16 @@ p {
   color: #eff1ee;
   background-color: #DDCEBC !important;
 }
+.dark-theme .footer h4,
+.dark-theme .footer h5,
+.dark-theme .footer h6,
+.dark-theme .footer a,
+.dark-theme .footer p {
+  color: #eff1ee;
+}
+.dark-theme .footer a:hover, .dark-theme .footer a:focus, .dark-theme .footer a:active {
+  color: #DDCEBC;
+}
 
 .light-theme {
   color: #1B2026;
@@ -454,6 +464,34 @@ header .menu-contact .btn-disc .mn {
 }
 .sidebar .menu-side .fa-linkedin-in {
   margin: 0px 10px;
+}
+
+footer {
+  padding: 80px 0;
+}
+footer h4,
+footer h5 {
+  margin-bottom: 20px;
+}
+footer h4,
+footer h5 {
+  font-size: 21px;
+}
+footer p,
+footer a {
+  color: #1B2026;
+  font-size: 20px !important;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  font-family: "Hind", sans-serif;
+}
+footer a:hover, footer a:focus, footer a:active {
+  color: #447565;
+}
+footer .reseaux a {
+  margin-right: 15px;
 }
 
 .nav-tabs {
