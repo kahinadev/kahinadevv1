@@ -8,6 +8,14 @@
         background-color: $beige !important;
     }
 
+    .langages {
+        &:hover,
+        &:focus,
+        &:active {
+            color: $mystery;
+        }
+    }
+
     .btn-menu,
     .btn-disc,
     .nav-link,

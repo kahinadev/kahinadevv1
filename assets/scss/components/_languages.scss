@@ -7,4 +7,10 @@
         font-weight: $f800;
         font-family: $text;
     }
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $pure;
+    }
 }
