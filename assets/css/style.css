@@ -68,6 +68,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Noticia Text", serif;
@@ -120,6 +121,7 @@ p {
   text-align: justify;
   letter-spacing: 0.3px;
   font-family: "Hind", sans-serif;
+  margin: 40px 0;
 }
 
 * {
@@ -140,6 +142,10 @@ body {
   bottom: 10px;
   position: fixed;
   border-radius: 10px;
+}
+
+section {
+  padding: 140px 0;
 }
 
 .bg-mystery {
@@ -212,6 +218,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Noticia Text", serif;
@@ -264,6 +271,7 @@ p {
   text-align: justify;
   letter-spacing: 0.3px;
   font-family: "Hind", sans-serif;
+  margin: 40px 0;
 }
 
 .dark-theme {
@@ -279,7 +287,8 @@ p {
 .dark-theme .btn-disc,
 .dark-theme .nav-link,
 .dark-theme .btn-toggler,
-.dark-theme .a-lang {
+.dark-theme .a-lang,
+.dark-theme .btn-bg {
   color: #1B2026 !important;
 }
 .dark-theme .nav-link i {
@@ -287,8 +296,21 @@ p {
 }
 .dark-theme .logo,
 .dark-theme .btn-disc,
-.dark-theme .btn-toggler {
+.dark-theme .btn-toggler,
+.dark-theme .btn-bg {
   background-color: #eff1ee !important;
+}
+.dark-theme .btn-bg:hover, .dark-theme .btn-bg:focus, .dark-theme .btn-bg:active {
+  color: #1B2026;
+  background-color: #eff1ee;
+}
+.dark-theme .btn-border {
+  color: #eff1ee;
+  border: 2px solid #eff1ee;
+}
+.dark-theme .btn-border:hover, .dark-theme .btn-border:focus, .dark-theme .btn-border:active {
+  color: #eff1ee;
+  border: 2px solid #eff1ee;
 }
 .dark-theme #sun {
   display: none;
@@ -304,6 +326,10 @@ p {
 }
 .light-theme #moon {
   display: none;
+}
+.light-theme .title,
+.light-theme p {
+  color: #1B2026;
 }
 
 .btn-toggler {
@@ -335,6 +361,7 @@ header .menu-contact {
   border-radius: 10px;
 }
 header .menu-contact {
+  z-index: 3;
   height: 60px;
   right: 12px;
   width: 14rem;
@@ -345,7 +372,7 @@ header .menu-contact {
 @media screen and (max-width: 480px) {
   header .menu-contact {
     top: 7px;
-    height: 72px;
+    height: 72.45px;
   }
 }
 header .menu-contact .btn {
@@ -376,7 +403,7 @@ header .menu-contact .btn-disc .mn {
 .sidebar {
   width: 0;
   right: 12px;
-  z-index: -1;
+  z-index: 1;
   padding: 0px !important;
   border-radius: 10px;
   position: fixed;
@@ -410,6 +437,34 @@ header .menu-contact .btn-disc .mn {
   margin: 0px 10px;
 }
 
+.btn-bg,
+.btn-border {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.btn-bg {
+  color: #eff1ee;
+  background-color: #1B2026;
+}
+.btn-bg:hover, .btn-bg:focus, .btn-bg:active {
+  color: #eff1ee;
+  background-color: #1B2026;
+}
+
+.btn-border {
+  color: #1B2026;
+  border: 2px solid #1B2026;
+}
+.btn-border:hover, .btn-border:focus, .btn-border:active {
+  color: #1B2026;
+  border: 2px solid #1B2026;
+}
+
 .languages {
   left: 10px;
   background-color: #447565;
@@ -418,6 +473,34 @@ header .menu-contact .btn-disc .mn {
   color: #eff1ee;
   font-weight: 800;
   font-family: "Hind", sans-serif;
+}
+
+.intro img {
+  top: 0px;
+  right: 0;
+  width: 48%;
+  position: absolute;
+}
+@media screen and (max-width: 480px) {
+  .intro img {
+    top: 126px !important;
+    width: 62% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .intro img {
+    top: 79px;
+    width: 50%;
+    z-index: -1;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro p br {
+    display: none;
+  }
+}
+.intro .btn-bg {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

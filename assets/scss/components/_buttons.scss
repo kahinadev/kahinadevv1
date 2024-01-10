@@ -1,0 +1,31 @@
+.btn-bg,
+.btn-border {
+    padding: 15px;
+    font-size: $twenty;
+    border-radius: $ten;
+    @include subtitle;
+}
+
+.btn-bg {
+    color: $pure;
+    background-color: $mystery;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $pure;
+        background-color: $mystery;
+    }
+}
+
+.btn-border {
+    color: $mystery;
+    border: 2px solid $mystery;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $mystery;
+        border: 2px solid $mystery;
+    }
+}

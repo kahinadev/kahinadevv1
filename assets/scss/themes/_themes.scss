@@ -11,7 +11,8 @@
     .btn-disc,
     .nav-link,
     .btn-toggler,
-    .a-lang {
+    .a-lang,
+    .btn-bg {
         color: $mystery !important;
     }
 
@@ -23,8 +24,31 @@
 
     .logo,
     .btn-disc,
-    .btn-toggler {
+    .btn-toggler,
+    .btn-bg {
         background-color: $pure !important;
+    }
+
+    .btn-bg {
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $mystery;
+            background-color: $pure;
+        }
+    }
+
+    .btn-border {
+        color: $pure;
+        border: 2px solid $pure;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $pure;
+            border: 2px solid $pure;
+        }
     }
 
     #sun {
@@ -47,5 +71,10 @@
 
     #moon {
         display: none;
+    }
+
+    .title,
+    p {
+        color: $mystery;
     }
 }

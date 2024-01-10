@@ -13,6 +13,7 @@
 // Typography
 
 @mixin title {
+    font-weight: $f800;
     letter-spacing: $spacing;
     text-transform: $uppercase;
     font-family: $title;
