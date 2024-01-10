@@ -54,3 +54,19 @@
         }
     }
 }
+
+.projects {
+    h3 {
+        @media screen and (max-width: $tablet-m) {
+            margin-bottom: 40px;
+        }
+    }
+    img {
+        width: 100%;
+        border-radius: 20px;
+
+        @media screen and (max-width: $mobile) {
+            margin-bottom: 40px;
+        }
+    }
+}

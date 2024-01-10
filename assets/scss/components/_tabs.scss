@@ -21,4 +21,10 @@
         margin-left: $ten;
         margin-right: $ten;
     }
+
+    .skills {
+        @media screen and (max-width: $mobile) {
+            margin-top: $twenty;
+        }
+    }
 }

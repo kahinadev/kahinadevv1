@@ -1,5 +1,6 @@
 .card {
     padding: $thirty;
+    border: none !important;
 
     @media screen and (max-width: $mobile) {
         margin-bottom: $twenty;
@@ -7,6 +8,10 @@
 
     h3 {
         font-size: 2rem;
+
+        @media screen and (max-width: $mobile) {
+            font-size: 1.8rem !important;
+        }
     }
 
     p {
