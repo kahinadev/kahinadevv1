@@ -20,6 +20,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+    rel="stylesheet">
+
 </head>
 <body class="light-theme">
 
@@ -98,17 +101,17 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-8">
-                        <h1 class="title">
+                        <h1 class="title aos-init aos-animation" data-aos="fade-down" data-aos-delay="300">
                             Développeuse 
                             <br>
                             web
                         </h1>
-                        <p>
+                        <p class="aos-init aos-animation" data-aos="fade-down" data-aos-delay="400">
                             Passionnée par la création de site web, 
                             <br>
                             le web design et par les jeux vidéo.
                         </p>
-                        <div class="d-flex">
+                        <div class="d-flex aos-init aos-animation" data-aos="fade-down" data-aos-delay="500">
                             <a href="#propos" type="button" class="btn btn-border">
                                 Qui suis-je ?
                             </a>
@@ -118,13 +121,18 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <img src="assets/img/home/laptop.png" alt="Laptop">
+                        <img src="assets/img/home/laptop.png" 
+                        class="aos-init aos-animation" data-aos="fade-up" data-aos-delay="300"
+                        alt="Laptop">
                     </div>
                 </div>
             </div>
         </section>
         <section class="about" id="propos">
-            <div id="carouselExampleCaptions" class="carousel slide slide-about" data-bs-ride="false">
+            <div id="carouselExampleCaptions" 
+            class="carousel slide slide-about aos-init aos-animation"
+            data-aos="zoom-in" data-aos-delay="300" 
+            data-bs-ride="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
@@ -267,7 +275,8 @@
         <section class="services" id="services">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 aos-init aos-animation" 
+                    data-aos="fade-up" data-aos-delay="300">
                         <div class="card shadow bg-pure">
                             <h3>
                                 Développement web
@@ -282,7 +291,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 aos-init aos-animation" 
+                    data-aos="fade-up" data-aos-delay="400">
                         <div class="card shadow bg-pure">
                             <h3>
                                 Web design
@@ -298,7 +308,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6 aos-init aos-animation" 
+                    data-aos="fade-up" data-aos-delay="500">
                         <div class="card shadow bg-pure">
                             <h3>
                                 Refonte de site web
@@ -574,18 +585,20 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-8">
-                        <h3 class="mystery">
+                        <h3 class="mystery aos-init aos-animation" data-aos="fade-down" data-aos-delay="300">
                             Projets de design
                         </h3>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="#">
+                        <a href="#"
+                        class="aos-init aos-animation" data-aos="fade-up" data-aos-delay="400">
                             <img src="assets/img/home/projets/kanirgarden/kanirgarden.png" 
                             alt="KanirGarden">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6">
-                        <a href="#">
+                        <a href="#"
+                        class="aos-init aos-animation" data-aos="fade-up" data-aos-delay="500">
                             <img src="assets/img/home/projets/venircompany/venircompany-project.png" 
                             alt="VenirCompany">
                         </a>
@@ -672,6 +685,16 @@
     crossorigin="anonymous"></script>
     <script src="assets/js/themes.js"></script>
     <script src="assets/js/sidebar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 600,
+            easing: 'ease-in-sine',
+            delay: 100,
+        });
+    </script>
+    
 
 </body>
 </html>
