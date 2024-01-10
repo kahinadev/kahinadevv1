@@ -331,6 +331,13 @@ p {
 .dark-theme .bg-pure {
   background-color: #1B2026 !important;
 }
+.dark-theme .nav-tabs .nav-link {
+  background-color: #eff1ee !important;
+}
+.dark-theme .nav-tabs .nav-link.active {
+  color: #eff1ee;
+  background-color: #DDCEBC !important;
+}
 
 .light-theme {
   color: #1B2026;
@@ -449,14 +456,44 @@ header .menu-contact .btn-disc .mn {
   margin: 0px 10px;
 }
 
+.nav-tabs {
+  border-bottom: none !important;
+}
+.nav-tabs .nav-item .nav-link {
+  color: #eff1ee;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px !important;
+  background-color: #1B2026;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+}
+.nav-tabs .nav-item .nav-link.active {
+  color: #eff1ee;
+  background-color: #447565;
+}
+.nav-tabs .experiences {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .card {
   padding: 30px;
 }
+@media screen and (max-width: 480px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
 .card h3 {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 .card p {
   font-size: 22px;
+}
+.card .inf-p {
+  margin-bottom: -10px;
 }
 
 .slide-about img {
@@ -566,6 +603,13 @@ header .menu-contact .btn-disc .mn {
   .about .slide .content-slide {
     padding: 5% 8%;
   }
+}
+
+.parcours .card {
+  margin: 30px 0 0 0;
+}
+.parcours .card h3 {
+  margin: -10px 0px -10px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

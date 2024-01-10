@@ -73,6 +73,16 @@
     .bg-pure {
         background-color: $mystery !important; 
     }
+
+    .nav-tabs {
+        .nav-link {
+            background-color: $pure !important;
+        }
+        .nav-link.active {
+            color: $pure;
+            background-color: $beige !important;
+        }
+    }
 }
 
 .light-theme {

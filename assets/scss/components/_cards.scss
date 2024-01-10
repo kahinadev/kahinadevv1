@@ -1,11 +1,19 @@
 .card {
     padding: $thirty;
 
+    @media screen and (max-width: $mobile) {
+        margin-bottom: $twenty;
+    }
+
     h3 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     p {
         font-size: 22px;
+    }
+
+    .inf-p {
+        margin-bottom: -10px;
     }
 }
