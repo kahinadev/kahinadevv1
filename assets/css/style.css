@@ -137,11 +137,16 @@ body {
   transition: background-color 0.5s ease;
 }
 
+.card,
 .btn-toggler,
 .languages {
   bottom: 10px;
-  position: fixed;
   border-radius: 10px;
+}
+
+.btn-toggler,
+.languages {
+  position: fixed;
 }
 
 section {
@@ -323,6 +328,9 @@ p {
 .dark-theme .hope {
   color: #DDCEBC;
 }
+.dark-theme .bg-pure {
+  background-color: #1B2026 !important;
+}
 
 .light-theme {
   color: #1B2026;
@@ -439,6 +447,16 @@ header .menu-contact .btn-disc .mn {
 }
 .sidebar .menu-side .fa-linkedin-in {
   margin: 0px 10px;
+}
+
+.card {
+  padding: 30px;
+}
+.card h3 {
+  font-size: 2.3rem;
+}
+.card p {
+  font-size: 22px;
 }
 
 .slide-about img {

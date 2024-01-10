@@ -15,11 +15,16 @@ body {
     transition: background-color 0.5s ease;
 }
 
+.card,
 .btn-toggler,
 .languages {
     bottom: $ten;
-    position: $fixed;
     border-radius: $ten;
+}
+
+.btn-toggler,
+.languages {
+    position: $fixed;
 }
 
 section {
