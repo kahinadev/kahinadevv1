@@ -1,0 +1,32 @@
+// Themes 
+
+@mixin dark-theme {
+    color: $pure;
+    background-color: $mystery;
+}
+
+@mixin light-theme {
+    color: $mystery;
+    background-color: $pure;
+}
+
+// Typography
+
+@mixin title {
+    letter-spacing: $spacing;
+    text-transform: $uppercase;
+    font-family: $title;
+}
+
+@mixin subtitle {
+    font-weight: $f800;
+    text-transform: $uppercase;
+    font-family: $subtitle;
+}
+
+@mixin text {
+    font-size: 24px;
+    text-align: justify;
+    letter-spacing: 0.3px;
+    font-family: $text;
+}

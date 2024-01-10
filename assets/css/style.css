@@ -1,0 +1,423 @@
+.bg-mystery {
+  background-color: #1B2026;
+}
+
+.bg-hope {
+  background-color: #447565;
+}
+
+.bg-beige {
+  background-color: #DDCEBC;
+}
+
+.bg-pure {
+  background-color: #eff1ee;
+}
+
+.mystery {
+  color: #1B2026;
+}
+
+.pure {
+  color: #eff1ee;
+}
+
+.hope {
+  color: #447565;
+}
+
+.beige {
+  color: #DDCEBC;
+}
+
+.bg-mystery {
+  background-color: #1B2026;
+}
+
+.bg-hope {
+  background-color: #447565;
+}
+
+.bg-beige {
+  background-color: #DDCEBC;
+}
+
+.bg-pure {
+  background-color: #eff1ee;
+}
+
+.mystery {
+  color: #1B2026;
+}
+
+.pure {
+  color: #eff1ee;
+}
+
+.hope {
+  color: #447565;
+}
+
+.beige {
+  color: #DDCEBC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Noticia Text", serif;
+}
+
+h1 {
+  font-size: 6.5em;
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 6.3rem;
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 2.9rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 3.9rem;
+  }
+}
+
+h3 {
+  font-size: 6rem;
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 2.8rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h3 {
+    font-size: 3.8rem;
+  }
+}
+
+p {
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  font-family: "Hind", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  transition: background-color 0.5s ease;
+}
+
+.btn-toggler,
+.languages {
+  bottom: 10px;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.bg-mystery {
+  background-color: #1B2026;
+}
+
+.bg-hope {
+  background-color: #447565;
+}
+
+.bg-beige {
+  background-color: #DDCEBC;
+}
+
+.bg-pure {
+  background-color: #eff1ee;
+}
+
+.mystery {
+  color: #1B2026;
+}
+
+.pure {
+  color: #eff1ee;
+}
+
+.hope {
+  color: #447565;
+}
+
+.beige {
+  color: #DDCEBC;
+}
+
+.bg-mystery {
+  background-color: #1B2026;
+}
+
+.bg-hope {
+  background-color: #447565;
+}
+
+.bg-beige {
+  background-color: #DDCEBC;
+}
+
+.bg-pure {
+  background-color: #eff1ee;
+}
+
+.mystery {
+  color: #1B2026;
+}
+
+.pure {
+  color: #eff1ee;
+}
+
+.hope {
+  color: #447565;
+}
+
+.beige {
+  color: #DDCEBC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Noticia Text", serif;
+}
+
+h1 {
+  font-size: 6.5em;
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 6.3rem;
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 2.9rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 3.9rem;
+  }
+}
+
+h3 {
+  font-size: 6rem;
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 2.8rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h3 {
+    font-size: 3.8rem;
+  }
+}
+
+p {
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0.3px;
+  font-family: "Hind", sans-serif;
+}
+
+.dark-theme {
+  color: #eff1ee;
+  background-color: #1B2026;
+}
+.dark-theme .menu-contact,
+.dark-theme .sidebar,
+.dark-theme .languages {
+  background-color: #DDCEBC;
+}
+.dark-theme .btn-menu,
+.dark-theme .btn-disc,
+.dark-theme .nav-link,
+.dark-theme .btn-toggler,
+.dark-theme .a-lang {
+  color: #1B2026 !important;
+}
+.dark-theme .nav-link i {
+  color: #447565;
+}
+.dark-theme .logo,
+.dark-theme .btn-disc,
+.dark-theme .btn-toggler {
+  background-color: #eff1ee !important;
+}
+.dark-theme #sun {
+  display: none;
+}
+.dark-theme .btn-toggler:hover, .dark-theme .btn-toggler:focus, .dark-theme .btn-toggler:active {
+  color: #1B2026;
+  background-color: #eff1ee;
+}
+
+.light-theme {
+  color: #1B2026;
+  background-color: #eff1ee;
+}
+.light-theme #moon {
+  display: none;
+}
+
+.btn-toggler {
+  right: 10px;
+  color: #eff1ee;
+  background-color: #1B2026;
+}
+.btn-toggler:hover, .btn-toggler:focus, .btn-toggler:active {
+  color: #eff1ee;
+  background-color: #1B2026;
+}
+.btn-toggler span {
+  font-size: 16px;
+}
+
+header .logo {
+  width: 100%;
+  background-color: #1B2026;
+}
+@media screen and (max-width: 480px) {
+  header .logo {
+    width: 18%;
+  }
+}
+header .logo,
+header .sidebar,
+header .menu-contact {
+  padding: 10px;
+  border-radius: 10px;
+}
+header .menu-contact {
+  height: 60px;
+  right: 12px;
+  width: 14rem;
+  display: flex;
+  position: fixed;
+  background-color: #447565;
+}
+@media screen and (max-width: 480px) {
+  header .menu-contact {
+    top: 7px;
+    height: 72px;
+  }
+}
+header .menu-contact .btn {
+  color: #eff1ee;
+}
+header .menu-contact .btn-menu {
+  margin-top: 0px;
+}
+header .menu-contact .btn-disc {
+  height: 47px;
+  width: 10rem;
+  margin-top: -4px;
+  margin-left: 21%;
+  position: absolute;
+  background: #1B2026;
+}
+@media screen and (max-width: 480px) {
+  header .menu-contact .btn-disc {
+    height: 59px;
+  }
+}
+header .menu-contact .btn-disc .mn {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Hind", sans-serif;
+}
+
+.sidebar {
+  width: 0;
+  right: 12px;
+  z-index: -1;
+  padding: 0px !important;
+  border-radius: 10px;
+  position: fixed;
+  transition: 0.5s;
+  overflow-x: hidden;
+  background-color: #447565;
+}
+@media screen and (max-width: 480px) {
+  .sidebar {
+    top: 34px;
+  }
+}
+.sidebar .menu-side {
+  padding: 70px 22px;
+}
+.sidebar .menu-side .nav-item {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+}
+.sidebar .menu-side .nav-item .nav-link {
+  color: #eff1ee;
+}
+.sidebar .menu-side .nav-link {
+  font-size: 20px;
+}
+.sidebar .menu-side i {
+  color: #DDCEBC;
+}
+.sidebar .menu-side .fa-linkedin-in {
+  margin: 0px 10px;
+}
+
+.languages {
+  left: 10px;
+  background-color: #447565;
+}
+.languages a {
+  color: #eff1ee;
+  font-weight: 800;
+  font-family: "Hind", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

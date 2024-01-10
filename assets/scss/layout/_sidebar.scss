@@ -1,0 +1,39 @@
+.sidebar {
+    width: 0;
+    right: 12px;
+    z-index: -1;
+    padding: $zero !important;
+    border-radius: 10px;
+    position: $fixed;
+    transition: 0.5s;
+    overflow-x: hidden;
+    background-color: $hope;
+
+    @media screen and (max-width: $mobile) {
+        top: 34px;
+    }
+
+    .menu-side {
+        padding: 70px 22px;
+
+        .nav-item {
+            @include subtitle;
+
+            .nav-link {
+                color: $pure;
+            }
+        }
+
+        .nav-link {
+            font-size: $twenty;
+        }
+
+        i {
+            color: $beige;
+        }
+
+        .fa-linkedin-in {
+            margin: 0px 10px;
+        }
+    }
+}

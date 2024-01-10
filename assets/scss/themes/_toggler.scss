@@ -1,0 +1,16 @@
+.btn-toggler {
+    right: $ten;
+    color: $pure;
+    background-color: $mystery;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $pure;
+        background-color: $mystery;
+    }
+
+    span {
+        font-size: 16px;
+    }
+}

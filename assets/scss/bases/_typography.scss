@@ -1,0 +1,57 @@
+@import "../bases/colors.scss";
+@import "../utils/mixins.scss";
+@import "../utils/variables.scss";
+
+$title: 'Noticia Text', serif;
+$subtitle: 'Cormorant Garamond', serif;
+$text: 'Hind', sans-serif;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include title;
+}
+
+h1 {
+    font-size: 6.5em;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 3rem !important;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-size: 6.3rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 2.9rem !important;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 3.9rem;
+    }
+}
+
+h3 {
+    font-size: 6rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 2.8rem !important;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 3.8rem;
+    }
+}
+
+p {
+    @include text;
+}

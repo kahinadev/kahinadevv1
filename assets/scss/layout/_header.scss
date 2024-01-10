@@ -1,0 +1,58 @@
+header {
+    .logo {
+        width: 100%;
+        background-color: $mystery;
+
+        @media screen and (max-width: $mobile) {
+            width: 18%;
+        }
+    }
+
+    .logo,
+    .sidebar,
+    .menu-contact {
+        padding: $ten;
+        border-radius: $ten;
+    }
+
+    .menu-contact {
+        height: 60px;
+        right: 12px;
+        width: 14rem;
+        display: flex;
+        position: $fixed;
+        background-color: $hope;
+
+        @media screen and (max-width: $mobile) {
+            top: 7px;
+            height: 72px;
+        }
+
+        .btn {
+            color: $pure;
+        }
+
+        .btn-menu {
+            margin-top: $zero;
+        }
+
+        .btn-disc {
+            height: 47px;
+            width: 10rem;
+            margin-top: -4px;
+            margin-left: 21%;
+            position: absolute;
+            background: $mystery;
+
+            @media screen and (max-width: $mobile) {
+                height: 59px;
+            }
+
+            .mn {
+                font-size: 18px;
+                font-weight: 600;
+                font-family: $text;
+            }
+        }
+    }
+}

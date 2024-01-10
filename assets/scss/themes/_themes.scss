@@ -1,0 +1,51 @@
+.dark-theme {
+    @include dark-theme;
+
+    .menu-contact,
+    .sidebar,
+    .languages {
+        background-color: $beige;
+    }
+
+    .btn-menu,
+    .btn-disc,
+    .nav-link,
+    .btn-toggler,
+    .a-lang {
+        color: $mystery !important;
+    }
+
+    .nav-link {
+        i {
+            color: $hope;
+        }
+    }
+
+    .logo,
+    .btn-disc,
+    .btn-toggler {
+        background-color: $pure !important;
+    }
+
+    #sun {
+        display: none;
+    }
+
+    .btn-toggler {
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $mystery;
+            background-color: $pure;
+        }
+    }
+}
+
+.light-theme {
+    @include light-theme;
+
+    #moon {
+        display: none;
+    }
+}
