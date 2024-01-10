@@ -3,8 +3,9 @@
 
     .menu-contact,
     .sidebar,
-    .languages {
-        background-color: $beige;
+    .languages,
+    .btn-slide {
+        background-color: $beige !important;
     }
 
     .btn-menu,
@@ -63,6 +64,10 @@
             color: $mystery;
             background-color: $pure;
         }
+    }
+
+    .hope {
+        color: $beige;
     }
 }
 

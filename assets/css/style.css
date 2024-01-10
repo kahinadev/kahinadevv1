@@ -280,8 +280,9 @@ p {
 }
 .dark-theme .menu-contact,
 .dark-theme .sidebar,
-.dark-theme .languages {
-  background-color: #DDCEBC;
+.dark-theme .languages,
+.dark-theme .btn-slide {
+  background-color: #DDCEBC !important;
 }
 .dark-theme .btn-menu,
 .dark-theme .btn-disc,
@@ -318,6 +319,9 @@ p {
 .dark-theme .btn-toggler:hover, .dark-theme .btn-toggler:focus, .dark-theme .btn-toggler:active {
   color: #1B2026;
   background-color: #eff1ee;
+}
+.dark-theme .hope {
+  color: #DDCEBC;
 }
 
 .light-theme {
@@ -437,6 +441,35 @@ header .menu-contact .btn-disc .mn {
   margin: 0px 10px;
 }
 
+.slide-about img {
+  width: 100%;
+}
+.slide-about .carousel-indicators {
+  right: -10.6%;
+  bottom: 70px;
+  position: absolute;
+}
+@media screen and (max-width: 480px) {
+  .slide-about .carousel-indicators {
+    bottom: -16px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .slide-about .carousel-indicators {
+    right: 0%;
+    bottom: -46px;
+  }
+}
+.slide-about .carousel-indicators .btn-slide {
+  width: 20px;
+  height: 20px;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  background-color: #447565;
+}
+
 .btn-bg,
 .btn-border {
   padding: 15px;
@@ -501,6 +534,20 @@ header .menu-contact .btn-disc .mn {
 }
 .intro .btn-bg {
   margin-left: 10px;
+}
+
+.about .slide .content-slide {
+  padding: 20% 40% 0% 0%;
+}
+@media screen and (max-width: 480px) {
+  .about .slide .content-slide {
+    padding: 10% 4% !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about .slide .content-slide {
+    padding: 5% 8%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

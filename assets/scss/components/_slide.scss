@@ -1,0 +1,30 @@
+.slide-about {
+    img {
+        width: 100%;
+    }
+
+    .carousel-indicators {
+        right: -10.6%;
+        bottom: 70px;
+        position: $absolute;
+
+        @media screen and (max-width: $mobile) {
+            bottom: -16px !important;
+        }
+
+        @media screen and (max-width: $tablet-m) {
+            right: 0%;
+            bottom: -46px;
+        }
+
+        .btn-slide {
+            width: 20px;
+            height: 20px;
+            border: none;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 50px;
+            background-color: $hope;
+        }
+    }
+}

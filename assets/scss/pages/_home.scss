@@ -29,3 +29,19 @@
         margin-left: 10px;
     }
 }
+
+.about {
+    .slide {
+        .content-slide {
+            padding: 20% 40% 0% 0%;
+
+            @media screen and (max-width: $mobile) {
+                padding: 10% 4% !important;
+            }
+
+            @media screen and (max-width: $tablet-m) {
+                padding: 5% 8%;
+            }
+        }
+    }
+}
